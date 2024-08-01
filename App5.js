@@ -4,6 +4,7 @@ let rl= readline.createInterface(
     process.stdin,
     process.stdout
 )
+
 rl.question('Ingrese una frase: ', (frase) => {
     rl.question('Ingrese la palabra que desea reemplazar: ', (palabraAReemplazar) => {
         rl.question('Ingrese la nueva palabra: ', (nuevaPalabra) => {
